@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    tools:context=".DetailActivity">
+    <TextView
+        android:id="@+id/tvvv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Detail Information of A Single User "
+        android:padding="10dp"
+       />
+
+
+    <TextView
+        android:id="@+id/fn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="First Name"
+        android:padding="10dp"
+        android:layout_below="@+id/tvvv"/>
+
+    <TextView
+        android:id="@+id/ln"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Last Name"
+        android:layout_below="@+id/fn"
+        android:padding="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="User Name"
+        android:layout_below="@+id/ln"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/pss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Password"
+        android:padding="10dp"
+        android:layout_below="@+id/us"
+        />
+
+    <TextView
+        android:id="@+id/eml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Email"
+        android:padding="10dp"
+        android:layout_below="@+id/pss"
+        />
+
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Phone Number"
+        android:padding="10dp"
+        android:layout_below="@+id/eml"
+        />
+
+    <TextView
+        android:id="@+id/sex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Gender"
+        android:padding="10dp"
+        android:layout_below="@+id/phone"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to The List"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:textStyle="bold"
+android:id="@+id/back"
+        android:layout_below="@+id/sex"
+
+        />
+
+</RelativeLayout>

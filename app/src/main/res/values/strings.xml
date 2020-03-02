@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">User Information Managment App</string>
+     <string name="Login_shared_preferences">com.beginner.userinformationmanagmentapp_Login_shared_preferences</string>
+    <string name="login_status_shared_preferences">com.beginner.userinformationmanagmentapp_login_status_shared_preferences</string>
+    <string name="username">trueline</string>
+    <string name="password">solution</string>
+
+</resources>
